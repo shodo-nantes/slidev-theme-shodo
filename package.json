@@ -1,0 +1,47 @@
+{
+  "name": "slidev-theme-shodo",
+  "version": "0.0.0",
+  "type": "module",
+  "author": "Manon Carbonnel",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "engines": {
+    "node": ">=18.0.0",
+    "slidev": ">=0.19.3"
+  },
+  "scripts": {
+    "build": "slidev build example.md",
+    "dev": "slidev example.md --open",
+    "export": "slidev export example.md",
+    "screenshot": "slidev export example.md --dark --format png",
+    "lint": "stylelint '**/*.css'",
+    "format": "stylelint '**/*.css' --fix && prettier . --write"
+  },
+  "dependencies": {
+    "@slidev/types": "^0.49.11",
+    "codemirror-theme-vars": "^0.1.2",
+    "prism-theme-vars": "^0.2.5"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^0.49.11",
+    "playwright-chromium": "^1.44.1",
+    "prettier": "^3.3.2",
+    "stylelint": "^16.6.1",
+    "stylelint-config-recommended": "^14.0.1",
+    "stylelint-config-tailwindcss": "^0.0.7"
+  },
+  "//": "Learn more: https://sli.dev/themes/write-a-theme.html",
+  "slidev": {
+    "colorSchema": "both",
+    "highlighter": "all",
+    "defaults": {
+      "fonts": {
+        "sans": "Inter",
+        "mono": "Fira Code",
+        "local": "Bluu Next"
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "antfu.slidev",
+    "prettieresbenp.prettier-vscode",
+    "stylelint.vscode-stylelint",
+    "Vue.volar",
+    "bradlc.vscode-tailwindcss"
+  ]
+}
