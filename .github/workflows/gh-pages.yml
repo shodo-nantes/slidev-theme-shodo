@@ -1,20 +1,43 @@
-name: slidev-theme-shodo
+name: Deploy pages
+
 on:
+  workflow_dispatch: {}
   push:
     branches:
       - main
+
 jobs:
-  build-on-deploy:
+  deploy:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
-      - name: checkout
-        uses: actions/checkout@v4.1.7
-      - name: install & build
-        run: |
-          npm ci
-          npm run build
-      - name: deploy
-        uses: JamesIves/github-pages-deploy-action@v4.6.1
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
         with:
-          branch: gh-pages
-          folder: dist
+          node-version: "lts/*"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build
+        run: npm run build -- --base /${{github.event.repository.name}}/
+
+      - uses: actions/configure-pages@v4
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4
