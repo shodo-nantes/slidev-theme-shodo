@@ -4,11 +4,13 @@ A Shodo theme for [Slidev](https://github.com/slidevjs/slidev).
 
 run `npm run dev` to check out the example slides for more details of how to start writing a presentation
 
-Live demo:
+Live demo: [https://shodo-nantes.github.io/slidev-theme-shodo](https://shodo-nantes.github.io/slidev-theme-shodo)
 
-![cover](example-export/1.png)
+|                Dark                 |                Light                 |
+| :---------------------------------: | :----------------------------------: |
+| ![cover](example-export-dark/1.png) | ![cover](example-export-light/1.png) |
 
-## Install
+<!-- ## Install
 
 Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
 
@@ -16,7 +18,7 @@ Add the following frontmatter to your `slides.md`. Start Slidev then it will pro
 theme: <b>slidev-theme-shodo</b>
 ---</code></pre>
 
-Learn more about [how to use a theme](https://sli.dev/themes/use).
+Learn more about [how to use a theme](https://sli.dev/themes/use). -->
 
 ## Layouts
 
