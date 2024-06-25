@@ -38,19 +38,19 @@ const props = defineProps({
   <section class="slidev-layout three-rows" :class="layoutClass">
     <div class="rows">
       <div class="row-top" :class="props.class">
-        <div class="arrow-circle-red" alt="arrow" v-if="this.$slots.top" />
+        <div class="arrow-circle-red" alt="arrow" v-if="$slots.top" />
         <div>
           <slot name="top" />
         </div>
       </div>
       <div class="row-center" :class="props.class">
-        <div class="arrow-circle-red" alt="arrow" v-if="this.$slots.center" />
+        <div class="arrow-circle-red" alt="arrow" v-if="$slots.center" />
         <div>
           <slot name="center" />
         </div>
       </div>
       <div class="row-bottom" :class="props.class">
-        <div class="arrow-circle-red" alt="arrow" v-if="this.$slots.bottom" />
+        <div class="arrow-circle-red" alt="arrow" v-if="$slots.bottom" />
         <div>
           <slot name="bottom" />
         </div>
