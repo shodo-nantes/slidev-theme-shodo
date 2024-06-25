@@ -669,15 +669,12 @@ database "MySql" {
 ```yaml
 layout: screenshot
 layoutClass: laptop
+screenshot: styles/images/image-illustration-manifeste.png
 ```
 
 ::left::
 
 ## Screenshot display
-
-::center::
-
-<img src="styles/images/image-illustration-manifeste.png" alt="Screenshot">
 
 ::right::
 
@@ -688,15 +685,12 @@ Show and explain your web, app or software projects using these gadget templates
 ```yaml
 layout: screenshot
 layoutClass: mobile
+screenshot: styles/images/shodo.io-screenshot.png
 ```
 
 ::left::
 
 ## Screenshot display
-
-::center::
-
-<img src="styles/images/shodo.io-screenshot.png" alt="Screenshot">
 
 ::right::
 

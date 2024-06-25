@@ -33,6 +33,10 @@ const props = defineProps({
     type: String,
     default: "laptop"
   },
+  screenshot: {
+    type: String,
+    default: ""
+  },
 });
 </script>
 
@@ -44,7 +48,7 @@ const props = defineProps({
       </div>
       <div class="col-center" :class="props.class">
         <div class="col-center-frame">
-          <slot name="center" />
+          <img :src="screenshot" alt="screenshot" />
         </div>
       </div>
       <div class="col-right" :class="props.class">
