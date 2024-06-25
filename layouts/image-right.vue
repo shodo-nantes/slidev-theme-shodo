@@ -4,7 +4,7 @@
 ---
 ```yaml
 layout: image-right
-image: <img-path>
+image: /<img-path>
 (optional) backgroundSize: default "cover"
 ```
 

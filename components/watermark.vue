@@ -1,6 +1,6 @@
 <template>
     <aside class="watermark">
-        <img class="watermark-logo" src="../styles/images/logo-red.jpg" alt="Logo Shodo" />
+        <img class="watermark-logo" src="/logo-red.jpg" alt="Logo Shodo" />
         <span class="watermark-title">Crafting sustainable code we do</span>
     </aside>
 </template>

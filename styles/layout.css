@@ -39,7 +39,7 @@ html.light .slidev-layout.intro::after,
 html.light .slidev-layout.section::after,
 html.light .slidev-layout.quote::after,
 html.light .slidev-layout.end::after {
-  background: url("images/Path_Top1-light-mode.svg");
+  background: url("/brush-stroke-light-mode.svg");
 }
 
 html.dark .slidev-layout.cover::after,
@@ -47,7 +47,7 @@ html.dark .slidev-layout.intro::after,
 html.dark .slidev-layout.section::after,
 html.dark .slidev-layout.quote::after,
 html.dark .slidev-layout.end::after {
-  background: url("images/Path_Top1-dark-mode.svg");
+  background: url("/brush-stroke-dark-mode.svg");
 }
 
 .slidev-layout.cover::after,
@@ -156,7 +156,7 @@ ul li {
   width: 48px;
 
   &::before {
-    content: url("styles/images/arrow.svg");
+    content: url("/arrow.svg");
     height: 24px;
     left: 12px;
     position: absolute;

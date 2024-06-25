@@ -16,7 +16,7 @@ defineProps({
 <style scoped>
 .big-concept {
   align-items: center;
-  background: url("../styles/images/bg-home.svg") no-repeat center/contain;
+  background: url("/bg-home.svg") no-repeat center/contain;
   color: #fff;
   display: flex;
   height: 300px;

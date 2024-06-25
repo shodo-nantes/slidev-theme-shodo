@@ -141,7 +141,7 @@ Is the color of blood, and because of this it has historically been associated w
 
 ```yaml
 layout: image-right
-image: styles/images/image-illustration-manifeste.png
+image: /image-illustration-manifeste.png
 ```
 
 ### A picture is worth a thousand words
@@ -283,7 +283,7 @@ console.log('Modified text')
 
 ```yaml
 layout: image
-image: styles/images/image-illustration-manifeste.png
+image: /image-illustration-manifeste.png
 ```
 
 Want big impact?
@@ -316,19 +316,16 @@ layout: three-rows
 ```
 
 ::top::
-
 <strong>89,526,124$</strong>
 
 That’s a lot of money
 
 ::center::
-
 <strong>185,244 users</strong>
 
 And a lot of users
 
 ::bottom::
-
 <strong>100%</strong>
 
 Total success!
@@ -669,7 +666,7 @@ database "MySql" {
 ```yaml
 layout: screenshot
 layoutClass: laptop
-screenshot: styles/images/image-illustration-manifeste.png
+screenshot: image-illustration-manifeste.png
 ```
 
 ::left::
@@ -685,7 +682,7 @@ Show and explain your web, app or software projects using these gadget templates
 ```yaml
 layout: screenshot
 layoutClass: mobile
-screenshot: styles/images/shodo.io-screenshot.png
+screenshot: shodo.io-screenshot.png
 ```
 
 ::left::

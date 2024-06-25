@@ -4,7 +4,8 @@
 ---
 ```yaml
 layout: screenshot
-(optional) layoutClass: laptop or mobile
+(optional) layoutClass: "laptop" or "mobile"
+screenshot: <image local name> | <remote url>
 ```
 
 ::left::
@@ -110,7 +111,7 @@ const props = defineProps({
     }
 
     &::after {
-      background-image: url("styles/images/macbook-air-frame.png");
+      background-image: url("/macbook-air-frame.png");
       background-size: 100%;
       background-repeat: no-repeat;
       content: "";
@@ -130,7 +131,7 @@ const props = defineProps({
     }
 
     &::after {
-      background-image: url("styles/images/iphone-15-pro-max-frame.png");
+      background-image: url("/iphone-15-pro-max-frame.png");
       background-size: 56%;
       background-repeat: no-repeat;
       content: "";

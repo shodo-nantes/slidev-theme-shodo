@@ -8,14 +8,17 @@ layout: three-rows
 
 ::top::
 <strong>Top</strong>
+
 This shows on the top
 
 ::center::
 <strong>Center</strong>
+
 This shows on the center
 
 ::bottom::
 <strong>Bottom</strong>
+
 This shows on the bottom
 ```
 -->
